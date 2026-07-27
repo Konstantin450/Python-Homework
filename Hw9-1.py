@@ -42,7 +42,6 @@ def my_decorator_universal(func):
         return func(my_list[::-1])
     return xz_universal
 
-
 @my_decorator_universal
 def my_func(numbers: list):
     print(numbers)
